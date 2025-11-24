@@ -1,0 +1,34 @@
+Effect Analysis for Employees Who Left:
+
+Average Satisfaction Level: 0.44
+
+
+Department Distribution:
+
+Department
+sales          1014
+technical       697
+support         555
+IT              273
+hr              215
+accounting      204
+marketing       203
+product_mng     198
+RandD           121
+management       91
+Name: count, dtype: int64
+
+Promotion in Last 5 Years:
+
+promotion_last_5years
+0    3552
+1      19
+Name: count, dtype: int64
+
+Salary Distribution:
+
+salary
+low       2172
+medium    1317
+high        82
+Name: count, dtype: int64

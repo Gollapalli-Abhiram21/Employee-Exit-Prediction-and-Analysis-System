@@ -1,0 +1,11 @@
+Logistic Regression:
+Accuracy: 0.7577
+Precision: 0.4692
+Recall: 0.2266
+F1 Score: 0.3056
+
+Random Forest:
+Accuracy: 0.9883
+Precision: 0.9869
+Recall: 0.9632
+F1 Score: 0.9749
