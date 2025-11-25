@@ -105,6 +105,52 @@ All outputs (plots, reports, models) will be located within the relevant `output
 
 ---
 
+## Model Performance and Key Features
+
+This project evaluated two machine learning models to predict employee exits:
+
+1. Logistic Regression
+
+  - Accuracy: 75.77%
+
+  - Precision: 46.92%
+
+  - Recall: 22.66%
+
+  - F1 Score: 30.56%
+
+2. Random Forest
+
+  - Accuracy: 98.83%
+
+  - Precision: 98.69%
+
+  - Recall: 96.32%
+
+  - F1 Score: 97.49%
+
+The Random Forest model demonstrated superior prediction performance and was selected for further use.
+
+---
+
+## Top Features Influencing Employee Exit
+
+The most important features identified by the Random Forest model were:
+
+- satisfaction_level (importance: 0.360)
+
+- time_spend_company (importance: 0.184)
+
+- number_project (importance: 0.165)
+
+- average_monthly_hours (importance: 0.149)
+
+- last_evaluation (importance: 0.116)
+
+These attributes significantly contribute to predicting whether an employee is likely to leave the organization, providing actionable insights for HR management.
+
+---
+
 ## Future Work
 
 - Interactive dashboards (Streamlit/Dash)
